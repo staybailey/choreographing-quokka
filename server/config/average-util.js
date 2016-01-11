@@ -23,7 +23,7 @@ exports.createAverages = function(callback) {
           sums[item] += data[i][item];
         }
       }
-      avaerages = {};
+      averages = {};
       entries = data.length;
       for (var item in sums) {
         averages[item] = sums[item] / entries;
